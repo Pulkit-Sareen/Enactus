@@ -84,8 +84,9 @@ nav {
     align-items: center;
 }
 .expand{
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
+    margin:2px;
 }
 #balance {
     width: 15%;
