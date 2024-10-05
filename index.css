@@ -24,7 +24,7 @@ header {
     padding: 10px 0 10px 0;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
@@ -47,11 +47,10 @@ header {
 
 nav {
     position: relative;
-    top: 7vh;
     display: flex;
     justify-content: center;
-    margin-bottom: 70px;
-    padding-top: 12px;
+    align-items: center;
+    margin: 14px 0 40px 0;
 }
 
 #nav {
@@ -94,6 +93,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 0;
 }
 
 .home-menu ul li {
