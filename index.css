@@ -83,7 +83,10 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
+.expand{
+    width: 24px;
+    height: 24px;
+}
 #balance {
     width: 15%;
 }
@@ -97,14 +100,15 @@ nav {
 }
 
 .home-menu ul li {
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 .home-menu ul li a {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 0 10px 0;
     color: black;
     transition: 0.3s;
 }
